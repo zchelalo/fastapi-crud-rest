@@ -4,7 +4,7 @@ Almacena los datos en memoria para que despues puedas consultarlos mediante los 
 
 ## **Instalación:**  
 Para probar la API debe tener instalado python, una vez con python instalado clone el proyecto:  
-> *git clone https://github.com/zchelalo/fastapi-crud-rest.git*  
+> `git clone https://github.com/zchelalo/fastapi-crud-rest.git`  
   
 Despues de ello asegurese de estar dentro de la carpeta del proyecto y corra el siguiente comando:  
 > `pip install -r requirements.txt`  

@@ -7,14 +7,18 @@ Para probar la API debe tener instalado python, una vez con python instalado clo
 > *git clone https://github.com/zchelalo/fastapi-crud-rest.git*  
   
 Despues de ello asegurese de estar dentro de la carpeta del proyecto y corra el siguiente comando:  
-> *pip install -r requirements.txt*  
+> `pip install -r requirements.txt`  
+  
 Es posible que si tiene mas de una versión de python falle y deba correr el siguiente comando en lugar del anterior:  
-> *pip3 install -r requirements.txt*  
+  
+> `pip3 install -r requirements.txt`  
   
 Una vez hecho esto deberá correr el servidor con uvicorn a traves del siguiente comando:  
-> *uvicorn app:app*  
+> `uvicorn app:app`  
+  
 En caso de que quiera hacer un cambio y este se refleje automaticamente en el servidor deberá ejecutar el siguiente comando en lugar del anterior:  
-> *uvicorn app:app --reload*  
+  
+> `uvicorn app:app --reload`  
   
 Una vez hecho todo esto basta con probar la aplicación dirigiendose a cada endpoint con la URL *http://localhost:8000/* en la cual esta alojado nuestro servidor.  
   
